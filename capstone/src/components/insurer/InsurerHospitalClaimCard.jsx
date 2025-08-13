@@ -117,7 +117,7 @@ const InsurerHospitalClaimCard = ({ claim, refreshClaims }) => {
         </Typography>
 
         <Typography variant="body2" sx={{ mb: 0.5 }}>
-          <strong>Claim Type:</strong> {claim.claimTypeName || "Cashless"}
+          <strong>Claim Type:</strong> {claim.claimTypeName || "cashless"}
         </Typography>
 
         <Typography variant="body2" gutterBottom>
